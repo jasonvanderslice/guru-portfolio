@@ -1,0 +1,114 @@
+/*
+  Theme colors
+    All selectors with colors that would need
+    to be changed for theme changes
+*/
+
+/*
+  rgb(39, 174, 96)
+
+  Sky
+    rgb(52, 152, 219)
+
+  rgb(44, 62, 80)
+
+  Grey
+    rgb(127, 140, 141)
+
+  Cloud
+    rgb(236, 240, 241)
+*/
+
+.background--skyBlue {
+  background-color: rgb(52, 152, 219);
+}
+
+.color--skyBlue {
+  color: rgb(52, 152, 219);
+}
+
+.color--cloud {
+  color: rgb(236, 240, 241);
+}
+
+.color--grey {
+  color: rgb(127, 140, 141);
+}
+
+/*
+  General Styles
+    These are styles to be inherited
+    through parent containers
+*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+/*
+  Helpers
+*/
+
+.margin--none {
+  margin: 0;
+}
+
+
+/*
+  Sections
+*/
+
+.section {
+  font-size: 4.2rem;
+  min-height: 75vh;
+  position: relative;
+}
+
+.section--alignCentered {
+  text-align: center;
+}
+
+.section--description {
+  font-size: 2.8rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.section__description {
+  width: 50%;
+}
+
+.section__text--centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section__example {
+  background-color: rgb(44, 62, 80);
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 1.8rem;
+  height: 35rem;
+  margin-right: 3.5rem;
+  overflow: hidden;
+  width: 35rem;
+  position: relative;
+}
+
+.section__exampleTitle{
+  font-size: 3.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+.section__exampleImage {
+  opacity: 0.25;
+}
