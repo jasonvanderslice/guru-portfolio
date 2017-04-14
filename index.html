@@ -4,13 +4,40 @@
     <meta charset="utf-8">
     <title>Another Unique Portfolio</title>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
-    <main>
-      <h1 class="color--skyBlue">
+    <main class="overflow--auto">
+      <h1 class="color--skyBlue
+                 section__heading--largest">
         Robin Norwood
       </h1>
+
+      <ul class="section--social">
+        <li class="socialWrapper">
+          <a class="color--skyBlue
+                    social"
+             href="#">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="socialWrapper
+                   color--skyBlue">
+          <a class="social
+                    color--skyBlue"
+             href="#">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="socialWrapper">
+          <a class="social
+                    color--skyBlue"
+             href="#">
+            <i class="fa fa-file-text" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
     </main>
 
     <section class="background--skyBlue
@@ -24,50 +51,55 @@
     <section class="section
                     section--alignCentered
                     section--description">
-      <p class="color--grey
+      <p class="color--skyBlue
                 section__description">
         Here you can find many examples of what I truly believe convey my value. These are just a small snippet of what I've created.
       </p>
 
-      <div class="section__example">
-        <img alt="example screenshot of a recent project involving cats"
-             class="section__exampleImage"
-             src="images/example1.png">
-        <dl class="color--cloud">
-          <dt class="section__exampleTitle
-                     section__text--centered ">
-            Work Example
-          </dt>
-          <dd></dd>
-        </dl>
+      <div class="section__exampleWrapper">
+        <div class="section__example">
+          <img alt="example screenshot of a recent project involving cats"
+               class="section__exampleImage"
+               src="images/example1.png">
+          <dl class="color--cloud">
+            <dt class="section__exampleTitle
+                       section__text--centered ">
+              Work Example
+            </dt>
+            <dd></dd>
+          </dl>
+        </div>
       </div>
 
-      <div class="section__example">
-        <img alt="example screenshot of a recent project involving cats"
-             class="section__exampleImage"
-             src="images/example1.png">
-        <dl class="color--cloud">
-          <dt class="section__exampleTitle
-                     section__text--centered ">
-            Work Example
-          </dt>
-          <dd></dd>
-        </dl>
+      <div class="section__exampleWrapper">
+        <div class="section__example">
+          <img alt="example screenshot of a recent project involving cats"
+               class="section__exampleImage"
+               src="images/example2.png">
+          <dl class="color--cloud">
+            <dt class="section__exampleTitle
+                       section__text--centered ">
+              Work Example
+            </dt>
+            <dd></dd>
+          </dl>
+        </div>
       </div>
 
-      <div class="section__example">
-        <img alt="example screenshot of a recent project involving cats"
-             class="section__exampleImage"
-             src="images/example1.png">
-        <dl class="color--cloud">
-          <dt class="section__exampleTitle
-                     section__text--centered ">
-            Work Example
-          </dt>
-          <dd></dd>
-        </dl>
+      <div class="section__exampleWrapper">
+        <div class="section__example">
+          <img alt="example screenshot of a recent project involving cats"
+               class="section__exampleImage"
+               src="images/example3.png">
+          <dl class="color--cloud">
+            <dt class="section__exampleTitle
+                       section__text--centered">
+              Work Example
+            </dt>
+            <dd></dd>
+          </dl>
+        </div>
       </div>
-
     </section>
 
     <section class="background--skyBlue
@@ -78,6 +110,39 @@
         About myself
       </h2>
     </section>
+
+    <section class="section
+                    section--alignCentered
+                    section--description">
+      <p class="color--skyBlue
+                section__description">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+    <div class="background--skyBlue
+                modal">
+      <span class="color--cloud
+                   modal--close">
+        x
+      </span>
+      <img alt="example screenshot of a recent project involving cats"
+           class="modal__image"
+           src="images/example4.jpg">
+      <div class="color--cloud
+                  modal__text">
+        <h2 class="modal__title">
+          Work Example Name
+        </h2>
+        <a class="color--skyBlue
+                  modal__link"
+           href="#">
+          Check it out
+        </a>
+        <p class="modal__description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
 
   </body>
 </html>
